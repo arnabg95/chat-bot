@@ -1,0 +1,762 @@
+[
+    {
+        "label": "create_openai_tools_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "AgentExecutor",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "get_chat_llm",
+        "importPath": "app.chatbot.llm",
+        "description": "app.chatbot.llm",
+        "isExtraImport": true,
+        "detail": "app.chatbot.llm",
+        "documentation": {}
+    },
+    {
+        "label": "get_chat_prompt_template",
+        "importPath": "app.chatbot.prompt",
+        "description": "app.chatbot.prompt",
+        "isExtraImport": true,
+        "detail": "app.chatbot.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_tools",
+        "importPath": "app.chatbot.tools",
+        "description": "app.chatbot.tools",
+        "isExtraImport": true,
+        "detail": "app.chatbot.tools",
+        "documentation": {}
+    },
+    {
+        "label": "get_memory",
+        "importPath": "app.chatbot.memory",
+        "description": "app.chatbot.memory",
+        "isExtraImport": true,
+        "detail": "app.chatbot.memory",
+        "documentation": {}
+    },
+    {
+        "label": "get_memory",
+        "importPath": "app.chatbot.memory",
+        "description": "app.chatbot.memory",
+        "isExtraImport": true,
+        "detail": "app.chatbot.memory",
+        "documentation": {}
+    },
+    {
+        "label": "LLMChain",
+        "importPath": "langchain.chains.llm",
+        "description": "langchain.chains.llm",
+        "isExtraImport": true,
+        "detail": "langchain.chains.llm",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIModerationChain",
+        "importPath": "langchain.chains.moderation",
+        "description": "langchain.chains.moderation",
+        "isExtraImport": true,
+        "detail": "langchain.chains.moderation",
+        "documentation": {}
+    },
+    {
+        "label": "get_agent",
+        "importPath": "app.chatbot.agents",
+        "description": "app.chatbot.agents",
+        "isExtraImport": true,
+        "detail": "app.chatbot.agents",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BaseChatMessageHistory",
+        "importPath": "langchain_core.chat_history",
+        "description": "langchain_core.chat_history",
+        "isExtraImport": true,
+        "detail": "langchain_core.chat_history",
+        "documentation": {}
+    },
+    {
+        "label": "BaseMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "messages_from_dict",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "messages_to_dict",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "errors",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "IndexModel",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "ASCENDING",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "app.utils.logger",
+        "description": "app.utils.logger",
+        "isExtraImport": true,
+        "detail": "app.utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config.settings",
+        "description": "app.config.settings",
+        "isExtraImport": true,
+        "detail": "app.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config.settings",
+        "description": "app.config.settings",
+        "isExtraImport": true,
+        "detail": "app.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config.settings",
+        "description": "app.config.settings",
+        "isExtraImport": true,
+        "detail": "app.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationBufferMemory",
+        "importPath": "langchain.memory.buffer",
+        "description": "langchain.memory.buffer",
+        "isExtraImport": true,
+        "detail": "langchain.memory.buffer",
+        "documentation": {}
+    },
+    {
+        "label": "MongoChatMessageHistory",
+        "importPath": "app.chatbot.chat_history",
+        "description": "app.chatbot.chat_history",
+        "isExtraImport": true,
+        "detail": "app.chatbot.chat_history",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessagePromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesPlaceholder",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "SystemMessagePromptTemplate",
+        "importPath": "langchain.prompts",
+        "description": "langchain.prompts",
+        "isExtraImport": true,
+        "detail": "langchain.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "tool",
+        "importPath": "langchain.tools",
+        "description": "langchain.tools",
+        "isExtraImport": true,
+        "detail": "langchain.tools",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "init_beanie",
+        "importPath": "beanie",
+        "description": "beanie",
+        "isExtraImport": true,
+        "detail": "beanie",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "beanie",
+        "description": "beanie",
+        "isExtraImport": true,
+        "detail": "beanie",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "Chat",
+        "importPath": "app.models.chat_model",
+        "description": "app.models.chat_model",
+        "isExtraImport": true,
+        "detail": "app.models.chat_model",
+        "documentation": {}
+    },
+    {
+        "label": "Chat",
+        "importPath": "app.models.chat_model",
+        "description": "app.models.chat_model",
+        "isExtraImport": true,
+        "detail": "app.models.chat_model",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "chat_id_generator",
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "isExtraImport": true,
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Messages",
+        "importPath": "app.schemas.message",
+        "description": "app.schemas.message",
+        "isExtraImport": true,
+        "detail": "app.schemas.message",
+        "documentation": {}
+    },
+    {
+        "label": "get_chat_instance",
+        "importPath": "app.chatbot.chat",
+        "description": "app.chatbot.chat",
+        "isExtraImport": true,
+        "detail": "app.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "chat_router",
+        "importPath": "app.routers.V1.chat",
+        "description": "app.routers.V1.chat",
+        "isExtraImport": true,
+        "detail": "app.routers.V1.chat",
+        "documentation": {}
+    },
+    {
+        "label": "v1_routers",
+        "importPath": "app.routers.V1",
+        "description": "app.routers.V1",
+        "isExtraImport": true,
+        "detail": "app.routers.V1",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "StaticFiles",
+        "importPath": "fastapi.staticfiles",
+        "description": "fastapi.staticfiles",
+        "isExtraImport": true,
+        "detail": "fastapi.staticfiles",
+        "documentation": {}
+    },
+    {
+        "label": "Jinja2Templates",
+        "importPath": "fastapi.templating",
+        "description": "fastapi.templating",
+        "isExtraImport": true,
+        "detail": "fastapi.templating",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "routes",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "get_tools_agent",
+        "kind": 2,
+        "importPath": "app.chatbot.agents",
+        "description": "app.chatbot.agents",
+        "peekOfCode": "def get_tools_agent():\n    \"\"\"create new openai tools agent\"\"\"\n    return create_openai_tools_agent(\n        llm=get_chat_llm(),\n        tools=get_all_tools(),\n        prompt=get_chat_prompt_template()\n    )\ndef get_agent(guest_id: str, chat_id: str | None = None):\n    \"\"\"agent that will handle user query\"\"\"\n    return AgentExecutor(",
+        "detail": "app.chatbot.agents",
+        "documentation": {}
+    },
+    {
+        "label": "get_agent",
+        "kind": 2,
+        "importPath": "app.chatbot.agents",
+        "description": "app.chatbot.agents",
+        "peekOfCode": "def get_agent(guest_id: str, chat_id: str | None = None):\n    \"\"\"agent that will handle user query\"\"\"\n    return AgentExecutor(\n        agent=get_tools_agent(),\n        tools=get_all_tools(),\n        verbose=True,\n        memory=get_memory(guest_id, chat_id),\n    )",
+        "detail": "app.chatbot.agents",
+        "documentation": {}
+    },
+    {
+        "label": "get_moderation_chain",
+        "kind": 2,
+        "importPath": "app.chatbot.chains",
+        "description": "app.chatbot.chains",
+        "peekOfCode": "def get_moderation_chain():\n    \"\"\"create and return moderation chain\"\"\"\n    return OpenAIModerationChain()\ndef get_chain(llm, prompt, guest_id: str, chat_id: str | None = None):\n    \"\"\"generate and return llm chain instance\"\"\"\n    return LLMChain(\n        llm=llm,\n        prompt=prompt,\n        memory=get_memory(guest_id, chat_id),\n        verbose=True",
+        "detail": "app.chatbot.chains",
+        "documentation": {}
+    },
+    {
+        "label": "get_chain",
+        "kind": 2,
+        "importPath": "app.chatbot.chains",
+        "description": "app.chatbot.chains",
+        "peekOfCode": "def get_chain(llm, prompt, guest_id: str, chat_id: str | None = None):\n    \"\"\"generate and return llm chain instance\"\"\"\n    return LLMChain(\n        llm=llm,\n        prompt=prompt,\n        memory=get_memory(guest_id, chat_id),\n        verbose=True\n    )",
+        "detail": "app.chatbot.chains",
+        "documentation": {}
+    },
+    {
+        "label": "get_chat_instance",
+        "kind": 2,
+        "importPath": "app.chatbot.chat",
+        "description": "app.chatbot.chat",
+        "peekOfCode": "def get_chat_instance(user_message: str, guest_id: str,\n                      chat_id: str | None = None):\n    \"\"\"create and return an instace of the agent\"\"\"\n    if not chat_id:\n        chat_id = uuid.uuid4().hex\n    agent = get_agent(guest_id, chat_id)\n    res = agent.invoke({\"content\": user_message})\n    return {\"message\": res[\"output\"], \"chat_id\": chat_id}",
+        "detail": "app.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "MongoChatMessageHistory",
+        "kind": 6,
+        "importPath": "app.chatbot.chat_history",
+        "description": "app.chatbot.chat_history",
+        "peekOfCode": "class MongoChatMessageHistory(BaseChatMessageHistory):\n    \"\"\"Chat message history that stores history in MongoDB.\n    Args:\n        connection_string: connection string to connect to MongoDB\n        session_id: arbitrary key that is used to store the messages\n            of a single chat session.\n        database_name: name of the database to use\n        collection_name: name of the collection to use\n    \"\"\"\n    def __init__(",
+        "detail": "app.chatbot.chat_history",
+        "documentation": {}
+    },
+    {
+        "label": "get_chat_llm",
+        "kind": 2,
+        "importPath": "app.chatbot.llm",
+        "description": "app.chatbot.llm",
+        "peekOfCode": "def get_chat_llm():\n    \"\"\"create and return a new chat llm object\"\"\"\n    return ChatOpenAI(\n        api_key=settings.OPENAI_API_KEY, model=\"gpt-3.5-turbo\", verbose=True)",
+        "detail": "app.chatbot.llm",
+        "documentation": {}
+    },
+    {
+        "label": "get_memory",
+        "kind": 2,
+        "importPath": "app.chatbot.memory",
+        "description": "app.chatbot.memory",
+        "peekOfCode": "def get_memory(guest_id: str, chat_id: str | None = None):\n    \"\"\"create and return buffer memory to retain the conversation info\"\"\"\n    return ConversationBufferMemory(\n        memory_key=\"messages\",\n        chat_memory=MongoChatMessageHistory(\n            guest_id, chat_id, settings.DB_URL, settings.DB_NAME, \"Chat\"\n        ),\n        return_messages=True,\n    )",
+        "detail": "app.chatbot.memory",
+        "documentation": {}
+    },
+    {
+        "label": "get_chat_prompt_template",
+        "kind": 2,
+        "importPath": "app.chatbot.prompt",
+        "description": "app.chatbot.prompt",
+        "peekOfCode": "def get_chat_prompt_template():\n    \"\"\"generate and return the prompt\n    template that will answer the users query\n    \"\"\"\n    return ChatPromptTemplate(\n        input_variables=[\"content\", \"messages\"],\n        messages=[\n            SystemMessagePromptTemplate.from_template(\n                \"\"\"\n                Welcome to Weavers Web, your personalized AI assistant for",
+        "detail": "app.chatbot.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "inform_sales_team",
+        "kind": 2,
+        "importPath": "app.chatbot.tools",
+        "description": "app.chatbot.tools",
+        "peekOfCode": "def inform_sales_team(\n        name: str = None, email: str = None, summery: str = None) -> None:\n    \"\"\"Use this tool to send the information about the chat\n    to the sales team for further processing. use this tool only after the\n    estimation is finalized.\n    \"\"\"\n    print(name)\n    print(email)\n    print(summery)\ndef get_all_tools():",
+        "detail": "app.chatbot.tools",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_tools",
+        "kind": 2,
+        "importPath": "app.chatbot.tools",
+        "description": "app.chatbot.tools",
+        "peekOfCode": "def get_all_tools():\n    \"\"\"return all the tools\"\"\"\n    return [inform_sales_team]",
+        "detail": "app.chatbot.tools",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "app.config.settings",
+        "description": "app.config.settings",
+        "peekOfCode": "class Settings(BaseSettings):\n    \"\"\"get the data from the .env file\"\"\"\n    DB_URL: str = Field(validation_alias=\"DB_URL\")\n    DB_NAME: str = Field(validation_alias=\"DB_NAME\")\n    OPENAI_API_KEY: str = Field(validation_alias=\"OPENAI_API_KEY\")\n    class Config:\n        env_file = \".env\"\n\"\"\" initialize the settings \"\"\"\nsettings = Settings()",
+        "detail": "app.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "app.config.settings",
+        "description": "app.config.settings",
+        "peekOfCode": "settings = Settings()",
+        "detail": "app.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "Chat",
+        "kind": 6,
+        "importPath": "app.models.chat_model",
+        "description": "app.models.chat_model",
+        "peekOfCode": "class Chat(Document):\n    \"\"\"chat model to store chatbot messages\"\"\"\n    guest_id: str\n    chat_id: str = Field(\n        default_factory=chat_id_generator.generate_chat_id_hex)\n    type: str\n    data: object\n    createdAt: datetime = Field(default_factory=datetime.now)\n    class Settings:\n        \"\"\"all the indexes\"\"\"",
+        "detail": "app.models.chat_model",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 2,
+        "importPath": "app.routers.V1.auth.auth_router",
+        "description": "app.routers.V1.auth.auth_router",
+        "peekOfCode": "def test():\n    \"\"\"this is to test if the api is working\"\"\"\n    return \"ok\"",
+        "detail": "app.routers.V1.auth.auth_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.V1.auth.auth_router",
+        "description": "app.routers.V1.auth.auth_router",
+        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"Authentication\"])\n@router.get(\"/test\")\ndef test():\n    \"\"\"this is to test if the api is working\"\"\"\n    return \"ok\"",
+        "detail": "app.routers.V1.auth.auth_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.V1.chat.chat_router",
+        "description": "app.routers.V1.chat.chat_router",
+        "peekOfCode": "router = APIRouter(prefix=\"/chat\", tags=[\"Chatbot\"])\n@router.get(\"/get-chat-id-list/{guest_id}\")\nasync def get_chat_ids_by_guest(guest_id: str):\n    \"\"\"get all the chat id\"\"\"\n    data = await Chat.aggregate(\n        [\n            {\"$match\": {\"guest_id\": guest_id}},\n            {\"$project\": {\"_id\": None, \"chat_id\": 1}},\n            {\"$group\": {\"_id\": None, \"chatIds\": {\"$addToSet\": \"$chat_id\"}}},\n        ]",
+        "detail": "app.routers.V1.chat.chat_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.V1.v1_routers",
+        "description": "app.routers.V1.v1_routers",
+        "peekOfCode": "router = APIRouter()\n\"\"\" include auth routes \"\"\"\n# router.include_router(auth_router.router)\n\"\"\" include chat routes \"\"\"\nrouter.include_router(chat_router.router)",
+        "detail": "app.routers.V1.v1_routers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.routes",
+        "description": "app.routers.routes",
+        "peekOfCode": "router = APIRouter()\n\"\"\" include the v1 routes here \"\"\"\nrouter.include_router(v1_routers.router)",
+        "detail": "app.routers.routes",
+        "documentation": {}
+    },
+    {
+        "label": "Messages",
+        "kind": 6,
+        "importPath": "app.schemas.message",
+        "description": "app.schemas.message",
+        "peekOfCode": "class Messages(BaseModel):\n    guest_id: str\n    chat_id: Optional[str] = None\n    msg: str",
+        "detail": "app.schemas.message",
+        "documentation": {}
+    },
+    {
+        "label": "generate_chat_id_hex",
+        "kind": 2,
+        "importPath": "app.utils.chat_id_generator",
+        "description": "app.utils.chat_id_generator",
+        "peekOfCode": "def generate_chat_id_hex():\n    \"\"\"returns uuid in hex format\"\"\"\n    return uuid.uuid4().hex",
+        "detail": "app.utils.chat_id_generator",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app.utils.logger",
+        "description": "app.utils.logger",
+        "peekOfCode": "logger = logging.getLogger()\n# create format\nformat = logging.Formatter(fmt=\"%(levelname)s: %(asctime)s - %(message)s\")\n# create handlers\nstream_handler = logging.StreamHandler(sys.stdout)\nfile_handler = logging.FileHandler(\"app.log\")\n# set formatter\nstream_handler.setFormatter(format)\nfile_handler.setFormatter(format)\n# add the handlers to the logger",
+        "detail": "app.utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "format",
+        "kind": 5,
+        "importPath": "app.utils.logger",
+        "description": "app.utils.logger",
+        "peekOfCode": "format = logging.Formatter(fmt=\"%(levelname)s: %(asctime)s - %(message)s\")\n# create handlers\nstream_handler = logging.StreamHandler(sys.stdout)\nfile_handler = logging.FileHandler(\"app.log\")\n# set formatter\nstream_handler.setFormatter(format)\nfile_handler.setFormatter(format)\n# add the handlers to the logger\nlogger.handlers = [stream_handler, file_handler]\n# set level",
+        "detail": "app.utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "stream_handler",
+        "kind": 5,
+        "importPath": "app.utils.logger",
+        "description": "app.utils.logger",
+        "peekOfCode": "stream_handler = logging.StreamHandler(sys.stdout)\nfile_handler = logging.FileHandler(\"app.log\")\n# set formatter\nstream_handler.setFormatter(format)\nfile_handler.setFormatter(format)\n# add the handlers to the logger\nlogger.handlers = [stream_handler, file_handler]\n# set level\nlogger.setLevel(logging.INFO)",
+        "detail": "app.utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "file_handler",
+        "kind": 5,
+        "importPath": "app.utils.logger",
+        "description": "app.utils.logger",
+        "peekOfCode": "file_handler = logging.FileHandler(\"app.log\")\n# set formatter\nstream_handler.setFormatter(format)\nfile_handler.setFormatter(format)\n# add the handlers to the logger\nlogger.handlers = [stream_handler, file_handler]\n# set level\nlogger.setLevel(logging.INFO)",
+        "detail": "app.utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger.handlers",
+        "kind": 5,
+        "importPath": "app.utils.logger",
+        "description": "app.utils.logger",
+        "peekOfCode": "logger.handlers = [stream_handler, file_handler]\n# set level\nlogger.setLevel(logging.INFO)",
+        "detail": "app.utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "app = FastAPI(\n    title=\"Boilerplate\",\n    summary=\"FastApi boilerplate for all project\",\n    description=\"\"\"\n    FastApi boilerplate that will include basic structure and authentication\n    \"\"\",\n    version=\"0.0.5\",\n    servers=[\n        {\n            \"url\": \"http://127.0.0.1:8000/api/v1\",",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "origins = [\n    \"http://localhost\",\n    \"http://localhost:8080\",\n    \"http://localhost:3000\",\n    \"http://localhost:5173\",\n    \"http://127.0.0.1\",\n    \"http://127.0.0.1:8080\",\n    \"http://127.0.0.1:3000\",\n    \"http://127.0.0.1:5173\",\n]",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "templates",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "templates = Jinja2Templates(directory=\"app/templates\")\n@app.get(\"/\", response_class=HTMLResponse, include_in_schema=False)\nasync def root(request: Request):\n    \"\"\"set the root to show a html welcome page\"\"\"\n    return templates.TemplateResponse(request=request, name=\"index.html\")\n# include all the other api endpoints\napp.include_router(routes.router)",
+        "detail": "app.main",
+        "documentation": {}
+    }
+]
