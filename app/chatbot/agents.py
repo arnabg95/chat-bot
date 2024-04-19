@@ -21,6 +21,6 @@ def get_agent(guest_id: str, chat_id: str | None = None):
     return AgentExecutor(
         agent=get_tools_agent(),
         tools=get_all_tools(),
-        verbose=False,
+        verbose=True,
         memory=get_memory(guest_id, chat_id),
     )
