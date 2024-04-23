@@ -8,11 +8,20 @@ from app.mail import mail_sender
 class SendSummerySchema(BaseModel):
     name: str = Field(description="name of the user given in the chat",default=None)
     email: EmailStr = Field(description="email provided by the user during chat", default=None)
-    summery: str = Field(description="summery of the chat", default=None)
+    summery: str = Field(description="summery of the conversation", default=None)
 
 def send_summery_email(
         name: str = None, email: str = None, summery: str = None) -> None:
     try:
+        if not name:
+            raise ValueError("Name needed")
+        if not email:
+            raise ValueError("Email needed")
+        if "example.com" in email:
+            raise ValueError("Invalid email provided")
+        if not summery:
+            raise ValueError("Summery needed")
+        
         htmlContent = generate_html_for_email.create_html_for_sales(name,email,summery)
         mail_sender.send_email(email, htmlContent, "New Project Estimation")
     except Exception as e:
@@ -20,7 +29,9 @@ def send_summery_email(
 
 run_send_email = StructuredTool.from_function(
     name="inform_sales_team",
-    description="Send email to sales team and the user. Use this tool when the user has aggreed to the estimated timeline and cost. Refrain from using made up name and email always provide user given name and email",
+    description="""Send email to sales team and the user.
+    Use this tool when the user has confirmed the summery
+    provided, Refrain from using made up name or email.""",
     func=send_summery_email,
     args_schema=SendSummerySchema
 )

@@ -6,7 +6,7 @@ from langchain.prompts import (
     MessagesPlaceholder,
     SystemMessagePromptTemplate
 )
-from .prompt_helpers import prompt_6
+from .prompt_helpers import prompt_7
 
 
 def get_chat_prompt_template():
@@ -16,7 +16,7 @@ def get_chat_prompt_template():
     return ChatPromptTemplate(
         input_variables=["content", "messages", "context"],
         messages=[
-            SystemMessagePromptTemplate.from_template(prompt_6),
+            SystemMessagePromptTemplate.from_template(prompt_7),
             MessagesPlaceholder(variable_name="messages"),
             HumanMessagePromptTemplate.from_template("{content}"),
             MessagesPlaceholder("agent_scratchpad")
