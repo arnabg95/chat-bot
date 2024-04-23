@@ -10,5 +10,5 @@ def get_chat_llm():
         api_key=settings.OPENAI_API_KEY,
         model="gpt-3.5-turbo",
         verbose=False,
-        temperature=0.5
+        temperature=0
     )

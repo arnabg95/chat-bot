@@ -26,11 +26,5 @@ def create_html_for_sales(name:str, email:str, summery:str):
     Returns:
         Html In string format
     """
-    return f"""
-    <div>
-    <p>Following Is The Information Of A Recent Conversation:</p>
-    <p>Name: {name}</p>
-    <p>Email: {email}</p>
-    <div>Summery: <br> {convert_text_to_html(summery)}</div>
-    </div>
+    return f"""Following Is The Information Of A Recent Conversation:\n\nName: {name}\nEmail: {email}\nSummery:\n{summery}
 """

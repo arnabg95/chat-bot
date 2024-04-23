@@ -17,8 +17,6 @@ def send_summery_email(
             raise ValueError("Name needed")
         if not email:
             raise ValueError("Email needed")
-        if "example.com" in email:
-            raise ValueError("Invalid email provided")
         if not summery:
             raise ValueError("Summery needed")
         
@@ -26,6 +24,8 @@ def send_summery_email(
         mail_sender.send_email(email, htmlContent, "New Project Estimation")
     except Exception as e:
         return f"the following error occured: {str(e)}"
+
+
 
 run_send_email = StructuredTool.from_function(
     name="inform_sales_team",

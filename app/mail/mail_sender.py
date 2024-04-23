@@ -17,8 +17,8 @@ def send_email(to:str, body: str, subject:str) -> None:
     message = Mail(
         from_email=settings.FROM_EMAIL,
         to_emails=[to],
-        html_content=body,
-        subject=subject
+        subject=subject,
+        plain_text_content=body
     )
     try:
         sg.send(message)    
