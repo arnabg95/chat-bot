@@ -8,7 +8,7 @@ def get_chat_llm():
     """create and return a new chat llm object"""
     return ChatOpenAI(
         api_key=settings.OPENAI_API_KEY,
-        model="gpt-3.5-turbo",
+        model="gpt-3.5-turbo-16k-0613",
         verbose=False,
-        temperature=0
+        temperature=0,
     )
