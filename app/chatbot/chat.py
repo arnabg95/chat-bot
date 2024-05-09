@@ -15,10 +15,12 @@ def get_chat_instance(user_message: str, guest_id: str,
         chat_id = uuid.uuid4().hex
 
     agent = get_agent(guest_id, chat_id)
-
-    if moderate_messages(user_message):
-        return { "message": "Your input goes against our policies." }
-    else:
-        related_doc = use_retriver_get_data(user_message)
-        res = agent.invoke({"content": user_message, "context": related_doc})
-        return {"message": res["output"], "chat_id": chat_id}
+    related_doc = use_retriver_get_data(user_message)
+    res = agent.invoke({"content": user_message, "context": related_doc})
+    return {"message": res["output"], "chat_id": chat_id}
+    # if moderate_messages(user_message):
+    #     return { "message": "Your input goes against our policies." }
+    # else:
+    #     related_doc = use_retriver_get_data(user_message)
+    #     res = agent.invoke({"content": user_message, "context": related_doc})
+    #     return {"message": res["output"], "chat_id": chat_id}
