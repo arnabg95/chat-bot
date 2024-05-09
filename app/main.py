@@ -26,7 +26,7 @@ app = FastAPI(
     FastApi boilerplate that will include basic structure and authentication
     """,
     version="0.0.5",
-    servers=[{"url": "http://127.0.0.1:8000/api/v1", "description": "Local Server"}],
+    servers=[{"url": "http://127.0.0.1:8000/api/v1", "description": "Local Server"},{"url": "https://chatbot-backend.weavers-web.com/api/v1", "description": "Live Server"}],
     root_path="/api/v1",
     root_path_in_servers=False,
     lifespan=lifespan,
@@ -44,7 +44,8 @@ origins = [
     "http://127.0.0.1:3000",
     "http://127.0.0.1:5173",    
     "http://127.0.0.1:3000",
-    "https://chatbot-frontend.weavers-web.com"
+    "https://chatbot-frontend.weavers-web.com",
+    "https://chatbot-backend.weavers-web.com"
 ]
 
 app.add_middleware(
